@@ -3,7 +3,7 @@
 # usage gma <module-name> <tag|branche>
 
 dir=`pwd`
-git clone https://github.com/madef/$1.git .tmp-$1
+git clone git@github.com:madef/$1.git .tmp-$1
 cd .tmp-$1
 git fetch --all
 git fetch --tags 
