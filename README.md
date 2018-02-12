@@ -25,7 +25,7 @@ or:
 
 
 By default the archive is generated on the current directory.
-To generate all archive on a specific directory difine the env var GMA_REPO :
+To generate all archives on a specific directory define the env var GMA_REPO :
 
 ```
   GMA_REPO=/home/madef/Workspace/ps/repo
