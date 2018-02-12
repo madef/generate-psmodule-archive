@@ -20,3 +20,14 @@ After that, don't forget to source your rc file:
 or:
 
 `source ~/.zshrc`
+
+## Environment vars
+
+
+By default the archive is generated on the current directory.
+To generate all archive on a specific directory difine the env var GMA_REPO :
+
+```
+  GMA_REPO=/home/madef/Workspace/ps/repo
+  export GMA_REPO
+```
